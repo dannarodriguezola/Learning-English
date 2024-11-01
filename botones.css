@@ -1,0 +1,62 @@
+.menu {
+    display: flex;
+}
+
+
+.menu-button {
+    background-color: #c834db;
+    color: #000000;
+    padding: 25px 20px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    position:relative;
+    top:-5px; right:-1000px;
+    margin-right: 10px;
+}
+
+
+.menu-button1 {
+    background-color: #c834db;
+    color: #000000;
+    padding: 25px 20px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    position:relative;
+    top:-5px; right:-1000px;
+    margin-right: 10px;
+}
+
+
+.menu-button2 {
+    background-color: #c834db;
+    color: #000000;
+    padding: 25px 20px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    position:relative;
+    top:-5px; right:-1000px;
+    margin-right: 10px;
+}
+
+.menu-button:last-child {
+    margin-right: 0;
+}
+
+/* Estilos CSS para las im�genes */
+.image-container {
+    text-align: center;
+}
+
+.image {
+    display: none;
+    top:700px;
+    left: 500px;
+
+}
+
+.image.active {
+    display: block;
+}
